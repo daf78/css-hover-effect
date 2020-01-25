@@ -3,11 +3,14 @@ body {
   padding: 0;
   height: 100vh;
   width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .icon {
   display: block;
-  border: 4px solid #d4ee3e;
+  border: 4px solid #c7e22f;
   height: 80px;
   width: 80px;
   border-radius: 8px;
