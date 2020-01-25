@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #c7e22f;
+  --primary-color: #592fe298;
 }
 
 body {
@@ -15,8 +15,8 @@ body {
 .icon {
   display: block;
   border: 3px solid var(--primary-color);
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -24,4 +24,6 @@ body {
   text-decoration: none;
   color: var(--primary-color);
   font-size: 1.2rem;
+  background-size: 100% 200%; /*width height*/
+  background-image: linear-gradient(transparent 50%, var(--primary-color) 50%);
 }
